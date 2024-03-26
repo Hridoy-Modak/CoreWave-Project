@@ -172,6 +172,45 @@ header {
 #service .main-serv-row .main-serv-row2 button {
   border: none;
   border-radius: 5px;
-  background: #DAF6EB;
+  background: #daf6eb;
   color: #06C279;
+}
+
+#project {
+  padding: 90px 0px;
+}
+
+#project .project-heading h5 {
+  margin-bottom: 33px;
+}
+#project .project-heading .project-types {
+  border-bottom: 3px solid #717171;
+  width: 65%;
+  margin: auto;
+}
+#project .project-heading h6 {
+  font-size: 16px;
+  color: #717171;
+}
+#project .project-heading h6:hover {
+  color: #06C279;
+  font-weight: 600;
+}
+#project .project-heading .proj-list {
+  position: relative;
+}
+#project .project-heading .proj-list::before {
+  cursor: pointer;
+  position: absolute;
+  content: " ";
+  bottom: -11px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #06C279;
+  height: 3px;
+  width: 0%;
+  transition-duration: 0.5s;
+}
+#project .project-heading .proj-list:hover::before {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */

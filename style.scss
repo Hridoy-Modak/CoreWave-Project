@@ -82,10 +82,10 @@ header {
   }
 }
 #service {
-  padding: 70px 0px 20px 0px;    
+  padding: 70px 0px 20px 0px;
   background: $bg-color;
-  border-top-left-radius: 310px;   
-  border-bottom-right-radius: 310px;   
+  border-top-left-radius: 310px;
+  border-bottom-right-radius: 310px;
   .main-serv-row {
     .main-serv-row1 {
       gap: 40px;
@@ -130,12 +130,55 @@ header {
         max-width: 543px;
         margin-bottom: 30px;
       }
-      button{
-        border: none; 
-        border-radius: 5px;   
-        background: #DAF6EB; 
+      button {
+        border: none;
+        border-radius: 5px;
+        background: #daf6eb;
         color: $primary;
       }
+    }
+  }
+}
+#project {
+  padding: 90px 0px;
+}
+#project {
+  .project-heading {
+    h5 {
+      margin-bottom: 33px;
+    }
+    .project-types {
+      border-bottom: 3px solid $light-black;
+      width: 65%;
+      margin: auto;
+    }
+    h6 {
+      font-size: 16px;
+      color: $light-black;
+
+      &:hover {
+        color: $primary;
+        font-weight: 600;
+      }
+    }
+    .proj-list {
+      position: relative;
+    }
+
+    .proj-list::before {
+      cursor: pointer;
+      position: absolute;
+      content: " ";
+      bottom: -11px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: $primary;
+      height: 3px;
+      width: 0%;
+      transition-duration: 0.5s;
+    }
+    .proj-list:hover::before {
+      width: 100%;
     }
   }
 }
