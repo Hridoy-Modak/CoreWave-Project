@@ -1,0 +1,141 @@
+@import "./components/common";
+@import "./components/navbar";
+@import "./components/variables";
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+header {
+  background: $bg-color;
+}
+.banner-body {
+  div {
+    h3 {
+      margin-top: 116px;
+      max-width: 526px;
+      line-height: 71px;
+      font-size: 60px;
+      font-weight: 300;
+      margin-bottom: 37px;
+      span {
+        font-weight: 700;
+      }
+    }
+    p {
+      color: $light-black;
+      font-size: 20px;
+      line-height: 30px;
+      margin-bottom: 50px;
+    }
+  }
+  .banner-btns {
+    gap: 20px;
+    button {
+      border: none;
+      font-weight: 400;
+      font-size: 16px;
+      padding: 14px 25px;
+      border-radius: 5px;
+    }
+    .banner__btn1 {
+      color: white;
+      background: $primary;
+    }
+    .banner__btn2 {
+      color: $primary;
+      background: white;
+      border: 1px solid $primary;
+      img {
+        margin-right: 3px;
+      }
+    }
+  }
+}
+#experiance {
+  padding: 100px 0px;
+  .container {
+    padding: 0px 16px !important;
+  }
+  .experiance-body {
+    .experiance-body1 {
+      padding: 0;
+      padding-top: 30px;
+
+      h3 {
+        max-width: 445px;
+        margin-bottom: 29px;
+      }
+      p {
+        max-width: 550px;
+        color: $light-black;
+        margin-bottom: 45px;
+      }
+      button {
+        border: none;
+        background: $bg-color;
+        color: $primary;
+      }
+    }
+    .experiance-body2 {
+      display: flex;
+      flex-direction: row-reverse;
+      padding: 0;
+    }
+  }
+}
+#service {
+  padding: 70px 0px 20px 0px;    
+  background: $bg-color;
+  border-top-left-radius: 310px;   
+  border-bottom-right-radius: 310px;   
+  .main-serv-row {
+    .main-serv-row1 {
+      gap: 40px;
+    }
+    .sub-serv-row1 {
+      margin-top: 100px;
+      margin-left: 50px;
+    }
+    .sub-serv-row-card {
+      background: white;
+      padding: 42px 40px 60px 40px;
+      margin-bottom: 40px;
+      border-radius: 10px;
+
+      i {
+        font-size: 50px;
+        color: $primary;
+        margin-bottom: 14px;
+      }
+      h5 {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 700;
+        margin-bottom: 14px;
+      }
+      p {
+        font-size: 16px;
+        color: $light-black;
+        max-width: 217px;
+      }
+    }
+    .main-serv-row2 {
+      padding-left: 125px;
+      h5 {
+        max-width: 414px;
+        margin-bottom: 30px;
+        margin-top: 227px;
+      }
+      p {
+        font-size: 16px;
+        color: $light-black;
+        max-width: 543px;
+        margin-bottom: 30px;
+      }
+      button{
+        border: none; 
+        border-radius: 5px;   
+        background: #DAF6EB; 
+        color: $primary;
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+@import "./variables";
+
+ul{  
+    gap: 45px;
+    margin-bottom: 0 !important; 
+    li{
+        list-style: none;
+        &:hover a{
+            color: $primary; 
+        }
+        a{
+            text-decoration: none; 
+            color: $black;
+        }
+    } 
+}
+nav{
+    padding: 26px 0px;  
+    button{
+        margin-left: 145px; 
+        padding: 14px 25px;  
+        border: none;
+        color: white;
+        background: $primary; 
+        border-radius: 5px;    
+    }
+}
